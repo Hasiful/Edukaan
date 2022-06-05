@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.input_control{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.section_padding{
+    padding: 50px 0px;
+}
+
+:root{
+    --primaryColor: #0044AF;
+    --secondaryColor: #FBB81B;
+}
+
+.container{
+    max-width: 1270px;
+}
+
+p,h1,h2,h3,h4,h5,h6,a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+

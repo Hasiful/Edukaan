@@ -1,0 +1,137 @@
+@media(min-width: 570px){
+    .banner_content_title{
+        font-size: 34px;
+    }
+    .banner_content_store{
+        gap: 10px;
+    }
+
+    .about_icon_inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width: 768px){
+
+    .banner_content{
+        width:  57.264957265%;
+    }
+
+    .banner_content-2{
+        width: 75%;
+    }
+    
+    .banner_image{
+        width: 40.170940171000005%;
+    }
+    
+    .banner_content_title{
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .banner_image_thumbnail {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: -1;
+    }
+
+    .banner_image_thumbnail img{
+        max-width: 500px;
+    }
+
+    .banner_image_thumbnail2 img{
+        max-width: 400px;
+    }
+
+    .banner_content_text{
+        font-size: 18px;
+        text-align: left;
+    }
+    .about_icon_inner{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+
+    .work_section_sytem_inner{
+        flex-direction: row;
+        gap: 0px;
+    }
+    
+    .work_section_sytem_inner:nth-child(2n + 1){
+        flex-direction: row-reverse;
+    }
+
+    .work_section_sytem_image{
+        width: 50%;
+    }
+    
+    .work_section_sytem_content{
+        width: 50%;
+    }
+    .work_section_content_wrapper{
+        max-width: 380px;
+        margin-left: 40px;
+        text-align: left;
+    }
+
+    .work_section_sytem_content_title{
+        font-size: 24px;
+    }
+
+    .banner2_content_text{
+        text-align: left;
+    }
+
+    .banner_section-2{
+        padding: 100px 0px;
+    }
+
+    .footer_section_wrapper{
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .footer_logo{
+        width: 23.076923077%;
+    }
+    
+    .footer_appscontent {
+        width: calc(12.529915% * 2);
+    }
+    
+    .footer_social_flow{
+        width: 14.529914530000001%;
+    }
+
+    .footer_social_flow ul{
+        justify-content: space-between;
+    }
+}
+
+@media(min-width: 1080px){
+    .banner_content_title{
+        font-size: 64px;
+    }
+
+    .banner_image_thumbnail img{
+        max-width: 700px;
+    }
+
+    .banner_image_thumbnail2 img{
+        max-width: 620px;
+    }
+
+    .banner_content_text{
+        font-size: 22px;
+    }
+    .about_icon_inner{
+        grid-gap: 40px;
+    }
+
+    .work_section_sytem_content_title{
+        font-size: 30px;
+    }
+}
+
